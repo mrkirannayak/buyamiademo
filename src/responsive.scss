@@ -1,0 +1,67 @@
+/* ************* Media Queries Tablets ****************** */
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 992px) {
+  * {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: auto;
+    transform: none !important;
+  }
+  .fullpageWrap {
+    height: auto;
+    width: auto;
+  }
+  .scroll-horizontal {
+    height: auto !important;
+    width: auto !important;
+    overflow: scroll !important;
+    position: inherit !important;
+  }
+  .scroll-horizontal > div {
+    transform: none !important;
+    display: inline-block !important;
+    height: auto !important;
+    position: inherit !important;
+    will-change: inherit !important;
+  }
+  .navbar,
+  .rightlinks {
+    display: none;
+  }
+  .homebannerTitle {
+    position: relative;
+    z-index: 1;
+    left: inherit;
+    bottom: inherit;
+    width: auto;
+    text-align: center;
+    padding-top: 200px;
+  }
+  .homebannerTitle h2 {
+    font-size: 30px;
+    line-height: normal;
+  }
+  .aboutWrap {
+    padding: 50px;
+  }
+  .aboutWrap .aboutquotes {
+    position: inherit;
+    top: 0;
+    left: 0;
+    width: auto;
+    font-size: 20px;
+    line-height: normal;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 479px) {
+}
